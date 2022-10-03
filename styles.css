@@ -1,0 +1,249 @@
+/*general */
+body {
+    background-image: url(../images/original_2b4584064b936bb613b11cb327a92810.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 0px;
+}
+
+ul {
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+ul li {
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 25px;
+}
+
+li > a {
+    color: #ffe8d6;
+    text-decoration: none;
+}
+
+img {
+    border: 5px hidden #ffffff;
+    border-radius: 15px;
+}
+
+
+ /*header*/
+ 
+header {
+    background-color: #1c2b51;
+    color: #ffe8d6;
+    width: 100%;
+    display: inline-block;
+}
+
+#title {
+    font-size: 100px;
+    font-family: 'League Script', cursive;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 20px 0 20px;
+    margin-left: 50px;
+    text-shadow:2px 1px 2px #828388;
+}
+
+#title  a {
+    color: #ffe8d6;
+    text-decoration: none;
+}
+
+/* index Main */
+
+#presentation {
+    background-image: url(../images/manicure_supplies.jpg);
+    margin: 0;
+
+}
+#titulo-descripcion h1 {
+    color:#1c2b51;
+    font-size: 100px;
+    font-family: 'League Script', cursive;
+    font-weight: 600;
+    margin: 0;
+    padding-top: 300px;
+    padding-bottom: 25px;
+    text-align: center;
+    text-shadow:2px 1px 2px #828388;
+    
+}
+
+div#titulo-descripcion  {
+    background-image: linear-gradient(rgba(255, 232, 214, 0.5), rgb(255, 232, 214, 1), 80%, rgba(255, 232, 214, 0.5));
+    text-align: center;
+    height: 100%;
+    padding-bottom: 300px;
+}
+
+#services-img {
+    display: inline-block;
+    padding: 10px;
+
+}
+/* Footer */
+
+#footer {
+    border-top: 1px solid #1c2b51;
+    width: 100%;
+    background-color: #1c2b51;
+}
+
+footer article {
+    display: inline-block;
+    padding: 0 100px;
+}
+
+footer p{ 
+    font-size: 20px;
+    color: #ffe8d6;
+}
+
+#horarios {
+    text-align: center;
+}
+
+footer h3 {
+    font-weight: bold;
+    color: #ffe8d6;
+}
+
+/*El Salón - Main*/
+
+#main-pages {
+    margin: 25px;
+    background-color: #ffe8d6;
+    padding: 10px;
+}
+#el-salon p{
+    text-align: justify;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: 900px;
+    text-shadow:1px 1px 1px #828388;
+}
+
+.titulo-pages h1 {
+    color:#1c2b51;
+    font-size: 90px;
+    font-family: 'League Script', cursive;
+    font-weight: 600;
+    margin: 0;
+    padding: 25px 0;
+    text-align: center;
+    text-shadow:2px 1px 2px #828388;
+}
+
+/*Servicios - Main*/
+.titulo-servicio {
+    margin-left: 2%;
+}
+
+.tabla {
+    height: 100%;
+    width: 70%;
+    margin-left: 5%;
+}
+
+.servicios {
+    text-align: left;
+    padding: 5px;
+}
+
+td{
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.tiempo {
+    width:30%;
+    text-align: center;
+}
+
+.precio {
+    width:30%;
+    text-align: center;
+}
+
+
+/*Politicas main*/
+.caracteristica {
+    text-align: left;
+    vertical-align: middle;
+    margin: 0;
+    vertical-align: top;
+    padding: 0;
+}
+
+li.caracteristica {
+    color: #1c2b51;
+    list-style: url(../images/favicon-16x16.png);
+    display: list-item;
+    padding-left: 5px;
+}
+.nailArt {
+    text-align: start;
+    vertical-align: top;
+    width: 10%;
+}
+
+th {
+    font-size: 20px;
+}
+
+.politicas {
+    margin-left: 2%;
+}
+
+.politicas p {
+    margin-left: 25px;
+}
+
+/*Contacto- Main*/
+.formulario {
+    padding: 10px;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input#nombre.Formulario {
+    padding: 2px;
+    width: 300px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input#email.Formulario{
+    padding: 2px;
+    width: 300px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.opcion {
+    padding: 5px;
+    margin-left: 15px;
+}
+
+textarea {
+    margin-left: 50px;
+    width: 300px;
+    height: 150px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#enviar-formulario {
+    background-color: #1c2b51;
+    border: none;
+    color: #ffe8d6;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 30px;
+    margin-left: 15%;
+}

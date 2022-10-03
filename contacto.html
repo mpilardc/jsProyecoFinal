@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Simple Beauty Studio - formulario de Contacto</title>
+    <link rel="icon" href="../assets/images/SB_instagram_avi.png">
+    <link rel="stylesheet" href="../assets/CSS/styles.css">
+    <link rel="stylesheet" href="../assets\CSS\styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=League+Script&family=Montserrat:wght@100;200;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <Section id="title">
+            <a href="../index.html">Simple Beauty</a>
+        </Section>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./el_salon.html">El Salón</a></li>
+                    <li><a href="./Servicios.html">Servicios</a></li>
+                    <li><a href="./politicas.html">Políticas</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main id="main-pages">
+        <section  class="titulo-pages">
+            <h1>Contactate!</h1>
+            <form action="" method="post">
+                <div>
+                    <label  class="formulario" for="nombre">Nombre y Apellido</label>
+                    <input  type="text" placeholder="Nombre y apellido" id="nombre">
+                </div>
+                <div>
+                    <label  class="formulario" for="email">Dirección de E-mail</label>
+                    <input type="text" placeholder="ejemplo@gmail.com" id="email">
+                </div>
+                <div>
+                    <h3>Quiero consultar sobre...</h3>
+                    <div class="opcion">Maquillaje
+                        <input type="checkbox" name="maquillaje" value="Maquillaje">
+                    </div>
+                    <div class="opcion">Manicura
+                        <input type="checkbox" name="Manicura" value="Manicura">
+                    </div>
+                    <div class="opcion">Cosmetología
+                        <input type="checkbox" name="Cosmeto" value="Cosmetología">
+                    </div>
+            
+                    <div><label for="Mensaje"> <h3>Consulta</h3>
+                    <textarea class="formulario" placeholder="¡Escribinos tu consulta!"></textarea>
+                    </div>
+                </div>
+                <button type="submit" id="enviar-formulario">Enviar</button>
+            </form>
+        </section>
+    </main>
+</body>
+<footer id="footer">
+    <article> 
+        <h3>Encontranos en</h3>
+        <p>Calle ##### <br>
+        Barrio y Ciudad <br>
+        País</p>
+        </article>
+    <article id="horarios">
+        <h3>Horarios de Atención</h3>
+        <p>Lunes a Viernes <br>
+        9:00 a 11:30 <br>
+        y <br>
+        17:00 a 20:00</p>
+    </article>
+    <article>
+        <h3>Contacto</h3>
+    </article>
+</footer>
+</html>
